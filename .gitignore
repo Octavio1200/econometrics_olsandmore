@@ -1,0 +1,17 @@
+# Entorno virtual
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
