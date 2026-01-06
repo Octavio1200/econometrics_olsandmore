@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "econometrics_olsandmore"
+message: "Si usas esta librería en un proyecto o reporte, por favor cita este software."
+type: software
+authors:
+  - family-names: "Pacheco"
+    given-names: "Octavio"
+repository-code: "https://github.com/Octavio1200/econometrics_olsandmore"
+url: "https://github.com/Octavio1200/econometrics_olsandmore"
+version: "0.1.0"
+license: "MIT"
+keywords:
+  - econometrics
+  - ols
+  - regression
+  - diagnostics
+  - unit-root
