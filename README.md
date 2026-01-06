@@ -1,7 +1,9 @@
+[![tests](https://github.com/Octavio1200/econometrics_olsandmore/actions/workflows/tests.yml/badge.svg)](https://github.com/Octavio1200/econometrics_olsandmore/actions/workflows/tests.yml)
+
 # econometrics_olsandmore
 
-Librería de econometría en Python (implementación manual) con:
-- OLS (API tipo sklearn)
+Librería de econometría en Python con implementación manual:
+- OLS por API
 - Diagnósticos: Durbin–Watson, Breusch–Pagan, White, Jarque–Bera, Breusch–Godfrey
 - Multicolinealidad: VIF
 - Correlación: Pearson/Spearman
@@ -25,11 +27,3 @@ print(model.result.summary())
 
 jb = jarque_bera(model.result.residuals)
 print(jb)
-
-
-## 3) Agrega GitHub Actions (CI)
-Crea esta carpeta y archivo:
-
-```powershell
-New-Item -ItemType Directory -Force .github/workflows
-New-Item .github/workflows/tests.yml -ItemType File
